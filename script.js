@@ -6,7 +6,7 @@ setInterval(function () {
     var seconds = document.querySelector("#seconds");
     var minutes = document.getElementById("minutes");
     var hours = document.getElementById("hour");
-    var secondsDeg = currentSecond * 6 + 180 + (currentMSecon*.00625) ;
+    var secondsDeg = currentSecond * 6 + 180 + (currentMSecon*.006) ;
     var minutesDeg = currentMinute * 6 + 180 + (currentSecond*.1);
     var hoursDeg = currentHour * 30 + 180 + (currentMinute*.5);
     rotate(seconds, secondsDeg)
